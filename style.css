@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(199, 12, 121);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+    background-color: rgb(7, 238, 69);
+}
+.navber ul{
+    list-style-type: none;
+    background-color: rgb(24, 171, 36);
+    padding: 0px;
+    margin: bottom; 
+    overflow: hidden;
+   
+}
+    
+.navber a{
+    color: rgb(241, 255, 240);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navber a:hover{
+    background-color: rgb(190, 151, 158);
+}
+.navber li{
+ float: left;
+}
+.box{ 
+     width: 300px;
+    height: 500px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+#box1{
+  background-color: bisque;
+}
+#box2{
+    background-color: rgb(74, 79, 84);
+}
+#box3{
+    background-color: rgb(108, 114, 110);
+}
+#box4{
+    background-color: rgb(158, 114, 132);
+}
+h2{
+    background-color: rgb(49, 171, 152);
+    text-align: calc();
+}
